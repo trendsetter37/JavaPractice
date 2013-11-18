@@ -16,11 +16,18 @@ public class JavaPractice {
     /**
      * @param args the command line arguments
      */
-  public static void main(String[] args){
-    
-  
-  
-  
-  }
-   
+    public static void main(String[] args) {
+        Time dock = new Time();
+
+        System.out.println(dock.toMilitary());
+        System.out.println(dock.toRegularTime());
+
+        dock.setTime(15, 33, 56);
+
+        System.out.println(dock.toMilitary());
+        
+        System.out.println(dock.toRegularTime());
+
+    }
+
 }

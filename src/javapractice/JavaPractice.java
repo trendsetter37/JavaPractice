@@ -17,17 +17,16 @@ public class JavaPractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Time dock = new Time();
 
-        System.out.println(dock.toMilitary());
-        System.out.println(dock.toRegularTime());
+        MultipleConstructor no = new MultipleConstructor();
+        MultipleConstructor one = new MultipleConstructor(5);
+        MultipleConstructor two = new MultipleConstructor(5, 13);
+        MultipleConstructor three = new MultipleConstructor(5, 13, 24);
 
-        dock.setTime(15, 33, 56);
-
-        System.out.println(dock.toMilitary());
-        
-        System.out.println(dock.toRegularTime());
-
+        System.out.printf("%s\n", no.toMilitary());
+        System.out.printf("%s\n", one.toMilitary());
+        System.out.printf("%s\n", two.toMilitary());
+        System.out.printf("%s\n", three.toMilitary());
     }
 
 }

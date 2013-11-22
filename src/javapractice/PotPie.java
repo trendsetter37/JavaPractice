@@ -15,6 +15,11 @@ public class PotPie {
     private int day;
     private int year;
     
+    
+    //Overloaded method/constructor PotPie....just did this to 
+    //prevent errors in main class
+    
+    public PotPie (){};
     public PotPie(int m, int d, int y){
     
      month = m;

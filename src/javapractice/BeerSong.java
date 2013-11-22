@@ -17,7 +17,7 @@ public class BeerSong {
         String word = " bottles";
         String phrase0 = "  of beer on the wall";
         String phrase1 = " of beer";
-        String phrase2 = "take one down, pass it around";
+        String phrase2 = "take one down," + "\n" + "pass it around";
         String phrase3 = "No more bottles of beer on the wall!";
 
         while (beers > 0) {

@@ -18,7 +18,7 @@ public class JavaPractice {
      */
     public static void main(String[] args) {
 
-        MultipleConstructor no = new MultipleConstructor();
+       /* MultipleConstructor no = new MultipleConstructor();
         MultipleConstructor one = new MultipleConstructor(5);
         MultipleConstructor two = new MultipleConstructor(5, 13);
         MultipleConstructor three = new MultipleConstructor(5, 13, 24);
@@ -26,7 +26,12 @@ public class JavaPractice {
         System.out.printf("%s\n", no.toMilitary());
         System.out.printf("%s\n", one.toMilitary());
         System.out.printf("%s\n", two.toMilitary());
-        System.out.printf("%s\n", three.toMilitary());
+        System.out.printf("%s\n", three.toMilitary());*/
+        
+        
+        PotPie ptp = new PotPie(4,5,6);
+        
+        
     }
 
 }

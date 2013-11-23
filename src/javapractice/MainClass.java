@@ -15,13 +15,11 @@ import javax.swing.JOptionPane;
 public class MainClass {
 
     public static void main(String[] args) {
+        Inhere fObject = new Inhere();
+        Inhere2 f2Object = new Inhere2();
 
-       
-      
-       
-       
-       
-        }
+        fObject.eat();
+        f2Object.eat();
+
     }
-
-
+}

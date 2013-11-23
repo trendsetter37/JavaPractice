@@ -33,3 +33,15 @@ public class Phinal {
     }
 
 }
+
+//put this cod in your main class when you want to retry this code
+ /* Phinal phinalObject = new Phinal(10);
+
+        for (int i = 0; i < 5; i++) {
+            
+            phinalObject.add();
+            System.out.printf("%s", phinalObject);
+            
+
+        }
+*/

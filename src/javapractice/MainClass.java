@@ -5,31 +5,23 @@
  */
 package javapractice;
 
+import java.util.EnumSet;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author js0044
  */
 public class MainClass {
 
-    private String name;
-    private PotPie birthday;
-    PotPie pp = new PotPie();
-
-    public MainClass(String theName, PotPie theDate) {
-
-        name = theName;
-        birthday = theDate;
-
-    }
-
-    public String toString() {
-
-        return String.format("My name is %s", "My Birthday is %s", name, birthday);
-
-    }
-
     public static void main(String[] args) {
 
+       
+      
+       
+       
+       
+        }
     }
 
-}
+

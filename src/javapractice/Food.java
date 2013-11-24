@@ -11,9 +11,9 @@ package javapractice;
  */
 public class Food {
 
-    public void eat() {
+     void eat() {
 
-        System.out.println("I am the eat methods");
+        System.out.println("This food is great!");
 
     }
 
@@ -24,3 +24,14 @@ public class Food {
 
         fObject.eat();
         f2Object.eat();*/
+//add polymorphic array to main class to test
+/**
+ *  //polymorphic array example 
+      Food bucky[] = new Food[2];  
+      bucky[0] = new Tuna();
+      bucky[1] = new PotPie2();
+      
+      for (int i = 2; i<2; i++) {
+      
+      bucky[i].eat();
+ */

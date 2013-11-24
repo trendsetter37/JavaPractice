@@ -5,25 +5,17 @@
  */
 package javapractice;
 
-//import javax.swing.JFrame;
-
-
-
 /**
  *
- * @author js0044
+ * @author javis
  */
-public class MainClass {
+public class Tuna extends Food {
 
-    public static void main(String[] args) {
-      
-      
-     
-      
-      }
-      
+    @Override
+     void eat() {
 
-       
+        System.out.println("This tuna is great!");
 
     }
 
+}

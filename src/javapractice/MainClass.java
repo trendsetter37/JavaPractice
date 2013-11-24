@@ -5,8 +5,9 @@
  */
 package javapractice;
 
-import java.util.EnumSet;
-import javax.swing.JOptionPane;
+import javax.swing.JFrame;
+
+
 
 /**
  *
@@ -15,11 +16,14 @@ import javax.swing.JOptionPane;
 public class MainClass {
 
     public static void main(String[] args) {
-        Inhere fObject = new Inhere();
-        Inhere2 f2Object = new Inhere2();
+        
+       GUI3 cool = new GUI3();
+       cool.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       cool.setSize(350, 400);
+       cool.setVisible(true);
+       
 
-        fObject.eat();
-        f2Object.eat();
+       
 
     }
 }

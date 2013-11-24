@@ -3,16 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package javapractice;
 
 /**
  *
  * @author javis
  */
-public class Inhere extends Food {
-
-    public void eat() {
-        System.out.println("This nourriture c'est bon!");
-    }
-
+public class Fish extends Animal {
+    
 }

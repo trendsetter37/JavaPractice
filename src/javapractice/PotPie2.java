@@ -11,8 +11,7 @@ package javapractice;
  */
 public class PotPie2 extends Food {
 
-    @Override
-     void eat() {
+    public void eat() {
 
         System.out.println("This potpie is great!");
 

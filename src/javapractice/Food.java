@@ -9,13 +9,9 @@ package javapractice;
  *
  * @author javis
  */
-public class Food {
+abstract public class Food {
 
-     void eat() {
-
-        System.out.println("This food is great!");
-
-    }
+    public abstract void eat();
 
 }
 //add this to your main class to retry code

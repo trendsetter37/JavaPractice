@@ -7,6 +7,9 @@ package javapractice;
 
 //import javax.swing.JFrame;
 
+import javax.swing.JFrame;
+
+
 
 
 /**
@@ -16,6 +19,9 @@ package javapractice;
 public class MainClass {
 
     public static void main(String[] args) {
+        
+        
+        
       
       
      

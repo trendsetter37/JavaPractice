@@ -6,30 +6,22 @@
 package javapractice;
 
 //import javax.swing.JFrame;
-
 import javax.swing.JFrame;
-
-
-
 
 /**
  *
  * @author js0044
  */
-public class MainClass {
+public class MainClass extends JFrame {
 
     public static void main(String[] args) {
-        
-        
-        
-      
-      
-     
-      
-      }
-      
 
-       
+        
+        GooeyRadio poo = new GooeyRadio();
+        poo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        poo.setSize(300, 200);
+        poo.setVisible(true);
 
     }
 
+}

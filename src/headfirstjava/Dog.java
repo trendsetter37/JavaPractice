@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package headfirstjava;
 
 /**
@@ -11,20 +10,62 @@ package headfirstjava;
  * @author javis
  */
 public class Dog {
-    int size;
-    String name;
-    String breed;
-    
-    void bark() {
-    
-    System.out.println("Roof....Roof");
-    
+
+    private int size;
+    private String name;
+    private String breed;
+
+    public void bark() {
+
+        System.out.println("Roof....Roof");
+
     }
-    
-    void mySize() {
-    
-    System.out.println("Oh yea and My size is: " + size);
-    
+
+    public void mySize() {
+
+        System.out.println("Oh yea and My size is: " + size);
+
     }
-    
+
+    public String getName() {
+
+        return name;
+
+    }
+
+    public void setName(String s) {
+
+        name = s;
+
+    }
+
+    public int getSize() {
+
+        return size;
+
+    }
+
+    public void setSize(int sy) {
+        if (sy <= 100) {
+            size = sy;
+        } else {size = 0;}
+
+    }
+
+    public String getBreed() {
+
+        return breed;
+
+    }
+
+    public void setBreed(String br) {
+
+        if (br.length() <= 30) {
+            breed = br;
+        }
+
+    }
+
 }
+
+//This is example is broken...scratch that. It is fixed now!

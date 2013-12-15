@@ -21,6 +21,13 @@ public class SimpleDotComTestDrive {
     SimpleDotCom test = new SimpleDotCom();
     
     int[] location = {2,3,4}; //3 consecutive int out of 7
+    test.setLocationCells(location);
+    
+    String userG = "2";
+    //check guess method
+    
+    test.checkGuess(userG);
+    String testResult = "failed";
     
     
     

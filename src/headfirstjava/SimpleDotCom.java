@@ -26,6 +26,9 @@ public class SimpleDotCom {
 
     //check the guess of the player
     public boolean checkGuess(String userGuess) {
+    
+    return false;
+    }
 
 //get user guess as a string parameter
 //convert user guess to an int
@@ -39,7 +42,7 @@ public class SimpleDotCom {
     }
 
     //set locatioin of dotcom
-    public void setLocation(int[] cellLocation) {
+    public void setLocationCells(int[] cellLocation) {
 
         /**
          * get initial cell locations as the method parameter and set that to

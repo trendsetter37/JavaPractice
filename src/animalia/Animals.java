@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package headfirstjava;
+package animalia;
 
 /**
  *
  * @author javis
  */
-public class Animals {
+public abstract class Animals {
 
     //instance variables
     private String picture;

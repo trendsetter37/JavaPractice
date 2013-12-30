@@ -9,19 +9,18 @@ package headfirstjava;
  *
  * @author javis
  */
-public class AnimalsTest {
-
+public class TestFormat {
 
     public static void main(String[] args) {
-        Wolf e = new Wolf();
 
-        e.makeNoise();
+        System.out.printf("%,d", 1000000);
+        System.out.println();
 
-        e.roam();
+        //or
+        String s = String.format("%,d", 1000000);
+        System.out.println(s);
+        
 
-        e.eat();
-
-        e.sleep();
     }
 
 }

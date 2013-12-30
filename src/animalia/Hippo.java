@@ -3,16 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package headfirstjava;
+package animalia;
 
 /**
  *
  * @author javis
  */
-public class Feline extends Animals {
+public class Hippo extends Animals {
 
     @Override
-    public void roam() {
+    public void makeNoise() {
+    }
+
+    @Override
+    public void eat() {
     }
 
 }

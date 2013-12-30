@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package headfirstjava;
+package animalia;
 
 /**
  *
  * @author javis
  */
-public class Cat extends Feline {
+public class Lion extends Feline {
 
     @Override
     public void makeNoise() {

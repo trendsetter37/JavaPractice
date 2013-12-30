@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package headfirstjava;
+package animalia;
 
 /**
  *
  * @author javis
  */
-public class Hippo extends Animals {
+public class Cat extends Feline implements Pet {
 
     @Override
     public void makeNoise() {
@@ -18,5 +18,13 @@ public class Hippo extends Animals {
     @Override
     public void eat() {
     }
+    
+    @Override 
+    public void play() {}
+    
+     @Override 
+    public void beFriendly() {}
+    
+    
 
 }

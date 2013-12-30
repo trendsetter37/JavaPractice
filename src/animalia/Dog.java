@@ -3,18 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package headfirstjava;
+package animalia;
 
 /**
  *
  * @author javis
  */
-public class Dog {
+public class Dog extends Canine implements Pet{
 
     private int size;
     private String name;
     private String breed;
 
+    
+    @Override
+    public void play() {}
+    
+    @Override
+    public void beFriendly() {}
+    
+    
     public void bark() {
 
         System.out.println("Roof....Roof");

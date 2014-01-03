@@ -82,7 +82,7 @@ public class PrimeQuadruplets {
         }
 //if not then just check the odds
 
-        for (int x = 3; x < n; x += 2) {
+        for (int x = 3; x <= Math.sqrt(n); x += 2) {
 
             if (n % x == 0) {
                 return false;
@@ -99,7 +99,6 @@ public class PrimeQuadruplets {
         int count = 1;
 
         for (Integer c : pList) {
-            // replace with do while loop
 
             if (count % 4 != 0 && count != 0) {
                 System.out.print(c + " ");
